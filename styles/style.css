@@ -43,12 +43,12 @@ header{
     height: 6rem;
     border-radius: 50%;
     margin: 1rem;
-    box-shadow: 0px 0px 10px  purple;
+    box-shadow: 0px 0px 10px  #251c4a;
 }
 
 .containerTitle>h1{
     color: #fff;
-    text-shadow: 0px 0px 7px  purple;
+    text-shadow: 0px 0px 7px  #251c4a;
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
@@ -85,10 +85,12 @@ header{
     font-size: 1rem;
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 
 form {
-    background-color: #a7aafa;
+    height: 2.5rem;
+    background-color: #c8ccfd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,4 +121,43 @@ form>img{
     height: 1.8rem;
 }
 
+.linea1{
+    border: none;
+    width: 100%;
+    height: 2px;
+    background-color: #8480F5;
+    margin: auto;
+}
 
+section{
+    background-color: #c8ccfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+section> .container-img-text{
+    flex-direction: column;
+    width: 30%;
+    height: 20%;
+    background-color: #fff;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 30px;
+}
+
+section>.container-img-text>img{
+    width: 100%;
+    height: 80%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+section>.container-img-text> .title{
+    width: 100%;
+    height: 20%;
+    padding: 0.5rem;
+    color: #8480F5;
+    font-size: 1.5rem;
+    text-align: center
+}
